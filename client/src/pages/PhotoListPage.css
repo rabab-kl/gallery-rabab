@@ -1,0 +1,63 @@
+.gallery-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.gallery-title {
+  text-align: center;
+}
+
+.gallery-button {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.gallery-link {
+  text-decoration: none;
+}
+
+.gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.photo-card {
+  cursor: pointer;
+  text-align: center;
+}
+
+.photo-thumb {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.overlay img {
+  max-width: 90%;
+  max-height: 80vh;
+  border-radius: 8px;
+}
+
+.overlay h2 {
+  color: white;
+  text-align: center;
+}
